@@ -2,22 +2,46 @@
 <html lang="en">
 
 <head>
-	<title>Accounting - Free Bootstrap 4 Template by Colorlib</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Contact Us</title>
+	<!-- <style>
+		.badge-info {
+			color: #fff;
+			background-color: #413c69 !important;
+			font-size: 13px;
+			margin-right: 12px;
+		}
 
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
+		.richText-toolbar {
+			background: #413c69 !important;
+		}
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		.richText .richText-toolbar ul li a {
+			display: block;
+			padding: 10px 13px;
+			border: none;
+			border-right: 1px solid #413c69 !important;
+			cursor: pointer;
+			-webkit-transition: background-color 0.4s;
+			-moz-transition: background-color 0.4s;
+			transition: background-color 0.4s;
+			color: white;
+			font-size: 15px;
+		}
 
-	<link rel="stylesheet" href="css/animate.css">
+		.richText-editor {
+			background: #413c69 !important;
+			color: white;
+			border-left: none !important;
+		}
 
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-
-	<link rel="stylesheet" href="css/flaticon.css">
-	<link rel="stylesheet" href="css/style.css">
+		.richText {
+			position: relative;
+			background-color: #413c69;
+			border: none !important;
+			color: #413c69;
+			width: 100%;
+		}
+	</style> -->
 </head>
 
 <body>
@@ -28,7 +52,7 @@
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row no-gutters slider-text align-items-end">
-				<div class="col-md-9 ftco-animate pb-5">
+				<div class="col-md-9 ftco-animate padding-bottom-8">
 					<p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.html">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Contact Us <i class="ion-ios-arrow-forward"></i></span></p>
 					<h1 class="mb-0 bread">Contact Us</h1>
 				</div>
@@ -54,7 +78,7 @@
 											<div class="col-md-6">
 												<div class="form-group">
 													<label class="label" for="name">Full Name</label>
-													<input type="text" class="form-control" name="name" id="name" placeholder="Name">
+													<input type="text" class="form-control" name="fullName" id="fullName" placeholder="Name">
 												</div>
 											</div>
 											<div class="col-md-6">
@@ -72,13 +96,13 @@
 											<div class="col-md-12">
 												<div class="form-group">
 													<label class="label" for="#">Message</label>
-													<textarea name="message" class="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
+													<textarea name="message" class="form-control content" id="message" cols="30" rows="4" placeholder="Message"></textarea>
 												</div>
 											</div>
 											<div class="col-md-12">
 												<div class="form-group">
 													<input type="submit" value="Send Message" class="btn btn-primary">
-													<div class="submitting"></div>
+													<div class="submitting"></div><br>
 												</div>
 											</div>
 										</div>
@@ -130,7 +154,7 @@
 		</div>
 	</section>
 
-	<div id="map" class="map"></div>
+	<!-- <div id="map" class="map"></div> -->
 
 	<section class="ftco-section ftco-no-pb ftco-no-pt bg-secondary">
 		<div class="container py-5">
@@ -160,20 +184,32 @@
 			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
 
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery-migrate-3.0.1.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.stellar.min.js"></script>
-	<script src="js/jquery.animateNumber.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/scrollax.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-	<script src="js/google-map.js"></script>
-	<script src="js/main.js"></script>
+	<script src="js/jquery.richtext.min.js"></script>
+
+	<!-- jQuery Validation -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.min.js"></script>
+
+	<script>
+		$('.content').richText();
+
+		$('#contactForm').validate({
+			rules: {
+				fullName: {
+					required: true,
+				},
+				email: {
+					required: true,
+					email: true,
+				},
+				subject: {
+					required: true,
+				},
+				message: {
+					required: true,
+				}
+			}
+		});
+	</script>
 
 </body>
 

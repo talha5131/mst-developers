@@ -2,28 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Accounting - Free Bootstrap 4 Template by Colorlib</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
-
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-	<link rel="stylesheet" href="css/animate.css">
-
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<link rel="stylesheet" href="css/magnific-popup.css">
-
-	<link rel="stylesheet" href="css/flaticon.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/stylesheet.css">
-	<link id="style-switch" href="css/presets/preset3.css" media="screen" rel="stylesheet" type="text/css">
+	<title>MST Developers</title>
 </head>
 
 <body>
@@ -87,11 +66,12 @@
 	<section id="service" class="service angle">
 		<div class="container">
 			<div class="row" style="margin-bottom: 70px;">
-				<div class="col-md-12 heading">
-					<span class="pull-left"><i class="fa fa-cogs"></i></span>
-					<h1 class="title">We Provide The Best Software Solutions.</h1>
+				<div class="col-md-12 heading-section" style="text-align: center;">
+					<!-- <span><i class="fa fa-cogs" style="font-size: 50px;"></i></span> -->
+					<h2 style="letter-spacing: 5px;"> Welcome to MST Developers</h2>
+					<h3>We Provide The Best Software Solutions</h3>
 				</div>
-			</div><!-- Title row end -->
+			</div><!-- Title row end --><br>
 
 			<div class="row">
 				<div class="col-md-4 col-sm-12">
@@ -99,7 +79,7 @@
 						<span class="service-icon icon-pentagon"><i class="fas fa-laptop-code"></i></span>
 						<h3>Web Application Development</h3>
 						<p> Our catering division is widely recognised as one of the market leaders in London.</p><br>
-						<a href="catering" class="btn btn-primary d-block px-2 py-3">Read More</a>
+						<a href="catering" class="btn btn-primary  px-2 py-3" id="services-links">Read More</a>
 
 					</div>
 				</div>
@@ -110,7 +90,7 @@
 						<span class="service-icon icon-pentagon"><i class="fa fa-android"></i></span>
 						<h3>Mobile Application Development</h3>
 						<p>Event staff recruitment is a much specialised field in the recruitment industry.</p><br>
-						<a href="events-&-promotions" class="btn btn-primary d-block px-2 py-3">Read More</a>
+						<a href="events-&-promotions" class="btn btn-primary  px-2 py-3" id="services-links">Read More</a>
 					</div>
 
 				</div>
@@ -121,7 +101,7 @@
 						<span class="service-icon icon-pentagon"><i class="fas fa-database"></i></span>
 						<h3>Databases</h3>
 						<p>Incorporated in the mid-90s, our client is one of Asia’s largest real estate groups. The Singapore office operates one of the largest…</p> <br>
-						<a href="it-&-telecom" class="btn btn-primary d-block px-2 py-3">Read More</a>
+						<a href="it-&-telecom" class="btn btn-primary  px-2 py-3" id="services-links">Read More</a>
 
 					</div>
 				</div>
@@ -135,7 +115,7 @@
 						<span class="service-icon icon-pentagon"><i class="fas fa-poll"></i></span>
 						<h3>Marketing</h3>
 						<p> Our catering division is widely recognised as one of the market leaders in London, supplying professional, well trained staff to the…</p> <br>
-						<a href="catering" class="btn btn-primary d-block px-2 py-3">Read More</a>
+						<a href="catering" class="btn btn-primary  px-2 py-3" id="services-links">Read More</a>
 
 					</div>
 				</div>
@@ -146,7 +126,7 @@
 						<span class="service-icon icon-pentagon"><i class="fas fa-palette"></i></span>
 						<h3>Graphic Designing</h3>
 						<p> Our catering division is widely recognised as one of the market leaders in London, supplying professional, well trained staff to the…</p> <br>
-						<a href="catering" class="btn btn-primary d-block px-2 py-3">Read More</a>
+						<a href="catering" class="btn btn-primary  px-2 py-3" id="services-links">Read More</a>
 
 					</div>
 				</div>
@@ -157,7 +137,7 @@
 						<span class="service-icon icon-pentagon"><i class="fas fa-laptop-code"></i></span>
 						<h3>Content Writing</h3>
 						<p> Our catering division is widely recognised as one of the market leaders in London, supplying professional, well trained staff to the…</p> <br>
-						<a href="catering" class="btn btn-primary d-block px-2 py-3">Read More</a>
+						<a href="catering" class="btn btn-primary  px-2 py-3" id="services-links">Read More</a>
 
 					</div>
 				</div>
@@ -168,7 +148,7 @@
 						<span class="service-icon icon-pentagon"><i class="fas fa-search"></i></span>
 						<h3>Search Engine Optimisation (SEO)</h3>
 						<p>Incorporated in the mid-90s, our client is one of Asia’s largest real estate groups. The Singapore office operates one of the largest…</p> <br>
-						<a href="it-&-telecom" class="btn btn-primary d-block px-2 py-3">Read More</a>
+						<a href="it-&-telecom" class="btn btn-primary  px-2 py-3" id="services-links">Read More</a>
 					</div>
 				</div>
 				<!--/ End 4th service -->
@@ -177,63 +157,6 @@
 		<!--/ Container end -->
 	</section>
 	<!--/ Service box end -->
-	<section class="ftco-section ftco-no-pt bg-light">
-		<div class="container">
-			<div class="row d-flex no-gutters">
-				<!-- <div class="col-md-6 d-flex">
-					<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-center mb-4 mb-sm-0" style="background-image:url(images/about.jpg);">
-					</div>
-				</div> -->
-				<div class="col-md-12 pl-md-5 py-md-5">
-					<div class="heading-section pl-md-4 pt-md-5" style="text-align: center;">
-						<span class="subheading">Welcome to MST Developers</span>
-						<h2 class="mb-4">We Provide The Best Software Solutions.</h2>
-					</div>
-					<br>
-					<div class="row">
-						<div class="col-md-3">
-							<div class="services-2 w-100 d-flex">
-								<div class="icon d-flex align-items-center justify-content-center"><span><i class="fa fa-code"></i></span></div>
-								<div class="text pl-4">
-									<h4 style="color: #413c69;">Web Application Development</h4>
-									<p style="color: black;">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-								</div>
-							</div>
-
-						</div>
-						<div class="col-md-3">
-							<div class="services-2 w-100 d-flex">
-								<div class="icon d-flex align-items-center justify-content-center"><span><i class="fa fa-android"></i></span></div>
-								<div class="text pl-4">
-									<h4>Mobile Application Development</h4>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="services-2 w-100 d-flex">
-								<div class="icon d-flex align-items-center justify-content-center"><span><i class="fas fa-search"></i></span></div>
-								<div class="text pl-4">
-									<h4>Search Engine Optimisation (SEO)</h4>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="services-2 w-100 d-flex">
-								<div class="icon d-flex align-items-center justify-content-center"><span><i class="fas fa-poll"></i></span></div>
-								<div class="text pl-4">
-									<h4>Digital Marketing</h4>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
-								</div>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
 
 	<section class="ftco-section bg-light ftco-no-pt">
 		<div class="container">
@@ -746,22 +669,6 @@
 	<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
 			<circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
 			<circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" /></svg></div>
-
-
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery-migrate-3.0.1.min.js"></script>
-	<script src="js/popper.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.stellar.min.js"></script>
-	<script src="js/jquery.animateNumber.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/scrollax.min.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
-	<script src="js/google-map.js"></script>
-	<script src="js/main.js"></script>
 
 </body>
 

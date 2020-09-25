@@ -8879,6 +8879,10 @@ button.bg-dark:focus {
     padding-left: 3rem !important;
 }
 
+.padding-bottom-8 {
+    padding-bottom: 8rem !important;
+}
+
 .m-n1 {
     margin: -0.25rem !important;
 }
@@ -10744,7 +10748,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1ba12d;
+    color: #413c69;
     outline: none !important;
 }
 
@@ -10851,8 +10855,8 @@ h5,
 }
 
 .social-media p a:hover {
-    background: #1ba12d;
-    border-color: #1ba12d;
+    background: #413c69;
+    border-color: #413c69;
 }
 
 .social-media p a:hover span {
@@ -11146,7 +11150,7 @@ h5,
 
 .hero-wrap.hero-wrap-2 .overlay {
     opacity: .6;
-    background: #1ba12d;
+    background: #413c69;
 }
 
 .hero-wrap.hero-wrap-2 .slider-text {
@@ -11218,12 +11222,12 @@ h5,
 
 .hero-wrap .slider-text .breadcrumbs span a:hover,
 .hero-wrap .slider-text .breadcrumbs span a:focus {
-    color: #1ba12d;
+    color: #413c69;
 }
 
 .hero-wrap .slider-text .breadcrumbs span a:hover i,
 .hero-wrap .slider-text .breadcrumbs span a:focus i {
-    color: #1ba12d;
+    color: #413c69;
 }
 
 .owl-carousel {
@@ -11565,7 +11569,7 @@ h5,
 }
 
 .bg-primary {
-    background: #1ba12d !important;
+    background: #413c69 !important;
 }
 
 .btn {
@@ -11617,8 +11621,9 @@ h5,
 }
 
 .btn.btn-white:hover {
-    border: 1px solid #fff;
-    background: transparent;
+    border: 1px solid #413c69;
+    ;
+    background: #413c69;
     color: #fff;
 }
 
@@ -12154,7 +12159,7 @@ textarea.form-control {
 
 .footer-small-nav>li a:hover,
 .footer-small-nav>li a:focus {
-    color: #1ba12d;
+    color: #413c69;
 }
 
 @-webkit-keyframes pulse {
@@ -12593,7 +12598,7 @@ textarea.form-control {
 .blog-entry .text .heading a:hover,
 .blog-entry .text .heading a:focus,
 .blog-entry .text .heading a:active {
-    color: #1ba12d;
+    color: #413c69;
 }
 
 .blog-entry .text .meta-chat {
@@ -13163,4 +13168,64 @@ textarea.form-control {
 
 .white {
     color: #fff;
+}
+
+.fa-cogs {
+    color: #413c69;
+    border-right: 2px solid #413c69;
+    padding-right: 10px;
+    height: 50px;
+}
+
+.fa-cogs:hover {
+    color: black;
+}
+
+
+/* .services-links{
+color: red;
+} */
+
+#services-links:hover {
+    background: #413c69;
+    color: #fff;
+}
+
+.fa-caret-right {
+    color: #413c69;
+    margin-bottom: 10px;
+}
+
+.service-images {
+    width: 100%;
+    height: 100%;
+    border: 4px solid #413c69;
+    border-radius: 3px;
+}
+
+.box {
+    border: 1px solid #413c69;
+}
+
+.authur-details {
+    content: "";
+    position: absolute;
+    bottom: -40px;
+    left: 45px;
+    border-style: solid;
+    border-width: 40px 0 0 30px;
+    border-color: #413c69 transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.authur-name {
+    position: absolute;
+    left: 100px;
+    top: 215px;
+}
+
+#contactForm ::placeholder {
+    padding-left: 15px;
 }
